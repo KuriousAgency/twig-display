@@ -1,0 +1,24 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * Twig Display plugin for Craft CMS 3.x
+ *
+ * TwigDisplayField Field Input
+ *
+ * @author    Kurious Agency
+ * @copyright Copyright (c) 2020 Kurious Agency
+ * @link      https://kurious.agency
+ * @package   TwigDisplay
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{{ forms.textField({
+        label: 'Some Field',
+        instructions: 'Enter some text here.',
+        id: name,
+        name: name,
+        value: value})
+}}

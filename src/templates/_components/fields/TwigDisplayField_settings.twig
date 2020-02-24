@@ -1,0 +1,28 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * Twig Display plugin for Craft CMS
+ *
+ * TwigDisplayField Field Settings
+ *
+ * @author    Kurious Agency
+ * @copyright Copyright (c) 2020 Kurious Agency
+ * @link      https://kurious.agency
+ * @package   TwigDisplay
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% do view.registerAssetBundle("kuriousagency\\twigdisplay\\assetbundles\\twigdisplay\\TwigDisplayAsset") %}
+
+{{ forms.textareaField({
+    label: 'Twig',
+    instructions: 'JSON format',
+    id: 'data',
+    name: 'data',
+	class: 'code',
+	rows: 7,
+    value: field['data']})
+}}
