@@ -11,7 +11,7 @@
 namespace kuriousagency\twigdisplay\fields;
 
 use kuriousagency\twigdisplay\TwigDisplay;
-use kuriousagency\twigdisplay\assetbundles\twigdisplayfieldfield\TwigDisplayFieldFieldAsset;
+use kuriousagency\twigdisplay\assetbundles\twigdisplayfield\TwigDisplayFieldAsset;
 
 use Craft;
 use craft\base\ElementInterface;

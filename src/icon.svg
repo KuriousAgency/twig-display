@@ -16,6 +16,6 @@
 </g>
 
 <!-- EDIT -->
-<text x="50%" y="65" fill="white" font-size="45" font-family="sans-serif" font-weight="lighter" text-anchor="middle" style="letter-spacing:-2; text-transform: uppercase; user-select:none;">{}</text>
+<text x="50%" y="65" fill="white" font-size="45" font-family="sans-serif" font-weight="lighter" text-anchor="middle" style="letter-spacing:-2; text-transform: uppercase; user-select:none;">{ }</text>
 
 </svg>

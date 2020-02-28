@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2020 Kurious Agency
  */
 
-namespace kuriousagency\twigdisplay\assetbundles\twigdisplayfieldfield;
+namespace kuriousagency\twigdisplay\assetbundles\twigdisplayfield;
 
 use Craft;
 use craft\web\AssetBundle;
@@ -19,7 +19,7 @@ use craft\web\assets\cp\CpAsset;
  * @package   TwigDisplay
  * @since     1.0.0
  */
-class TwigDisplayFieldFieldAsset extends AssetBundle
+class TwigDisplayFieldAsset extends AssetBundle
 {
     // Public Methods
     // =========================================================================
@@ -29,7 +29,7 @@ class TwigDisplayFieldFieldAsset extends AssetBundle
      */
     public function init()
     {
-        $this->sourcePath = "@kuriousagency/twigdisplay/assetbundles/twigdisplayfieldfield/dist";
+        $this->sourcePath = "@kuriousagency/twigdisplay/assetbundles/twigdisplayfield/dist";
 
         $this->depends = [
             CpAsset::class,

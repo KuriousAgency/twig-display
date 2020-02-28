@@ -1,40 +1,40 @@
 {
-    "name": "kuriousagency/twig-display",
-    "description": "Use twig to render what you need.",
-    "type": "craft-plugin",
-    "version": "1.0.0",
-    "keywords": [
-        "craft",
-        "cms",
-        "craftcms",
-        "craft-plugin",
-        "twig display"
-    ],
-    "support": {
-        "docs": "https://github.com/twig-display/twig-display/blob/master/README.md",
-        "issues": "https://github.com/twig-display/twig-display/issues"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Kurious Agency",
-            "homepage": "https://kurious.agency"
-        }
-    ],
-    "require": {
-        "craftcms/cms": "^3.0.0-RC1"
-    },
-    "autoload": {
-        "psr-4": {
-          "kuriousagency\\twigdisplay\\": "src/"
-        }
-    },
-    "extra": {
-        "name": "Twig Display",
-        "handle": "twig-display",
-        "hasCpSettings": false,
-        "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/twig-display/twig-display/master/CHANGELOG.md",
-        "class": "kuriousagency\\twigdisplay\\TwigDisplay"
-    }
+	"name": "kuriousagency/twig-display",
+	"description": "Use twig to render what you need.",
+	"type": "craft-plugin",
+	"version": "1.0.1",
+	"keywords": [
+		"craft",
+		"cms",
+		"craftcms",
+		"craft-plugin",
+		"twig display"
+	],
+	"support": {
+		"docs": "https://github.com/twig-display/twig-display/blob/master/README.md",
+		"issues": "https://github.com/twig-display/twig-display/issues"
+	},
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Kurious Agency",
+			"homepage": "https://kurious.agency"
+		}
+	],
+	"require": {
+		"craftcms/cms": "^3.0.0-RC1"
+	},
+	"autoload": {
+		"psr-4": {
+			"kuriousagency\\twigdisplay\\": "src/"
+		}
+	},
+	"extra": {
+		"name": "Twig Display",
+		"handle": "twig-display",
+		"hasCpSettings": false,
+		"hasCpSection": false,
+		"changelogUrl": "https://raw.githubusercontent.com/twig-display/twig-display/master/CHANGELOG.md",
+		"class": "kuriousagency\\twigdisplay\\TwigDisplay"
+	}
 }
