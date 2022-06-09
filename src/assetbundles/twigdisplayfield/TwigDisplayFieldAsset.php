@@ -8,7 +8,7 @@
  * @copyright Copyright (c) 2020 Kurious Agency
  */
 
-namespace kuriousagency\twigdisplay\assetbundles\twigdisplayfield;
+namespace webdna\twigdisplay\assetbundles\twigdisplayfield;
 
 use Craft;
 use craft\web\AssetBundle;
@@ -29,7 +29,7 @@ class TwigDisplayFieldAsset extends AssetBundle
      */
     public function init()
     {
-        $this->sourcePath = "@kuriousagency/twigdisplay/assetbundles/twigdisplayfield/dist";
+        $this->sourcePath = "@webdna/twigdisplay/assetbundles/twigdisplayfield/dist";
 
         $this->depends = [
             CpAsset::class,

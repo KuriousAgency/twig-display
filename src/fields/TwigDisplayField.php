@@ -8,10 +8,10 @@
  * @copyright Copyright (c) 2020 Kurious Agency
  */
 
-namespace kuriousagency\twigdisplay\fields;
+namespace webdna\twigdisplay\fields;
 
-use kuriousagency\twigdisplay\TwigDisplay;
-use kuriousagency\twigdisplay\assetbundles\twigdisplayfield\TwigDisplayFieldAsset;
+use webdna\twigdisplay\TwigDisplay;
+use webdna\twigdisplay\assetbundles\twigdisplayfield\TwigDisplayFieldAsset;
 
 use Craft;
 use craft\base\ElementInterface;

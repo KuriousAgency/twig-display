@@ -8,9 +8,9 @@
  * @copyright Copyright (c) 2020 Kurious Agency
  */
 
-namespace kuriousagency\twigdisplay;
+namespace webdna\twigdisplay;
 
-use kuriousagency\twigdisplay\fields\TwigDisplayField as TwigDisplayFieldField;
+use webdna\twigdisplay\fields\TwigDisplayField as TwigDisplayFieldField;
 
 use Craft;
 use craft\base\Plugin;
