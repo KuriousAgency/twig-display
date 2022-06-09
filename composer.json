@@ -2,7 +2,7 @@
 	"name": "kuriousagency/twig-display",
 	"description": "Use twig to render what you need.",
 	"type": "craft-plugin",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"keywords": [
 		"craft",
 		"cms",
@@ -11,14 +11,14 @@
 		"twig display"
 	],
 	"support": {
-		"docs": "https://github.com/twig-display/twig-display/blob/master/README.md",
-		"issues": "https://github.com/twig-display/twig-display/issues"
+		"docs": "https://github.com/webdna/twig-display/blob/master/README.md",
+		"issues": "https://github.com/webdna/twig-display/issues"
 	},
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Kurious Agency",
-			"homepage": "https://kurious.agency"
+			"name": "WebDNA",
+			"homepage": "https://webdna.co.uk"
 		}
 	],
 	"require": {
@@ -34,7 +34,7 @@
 		"handle": "twig-display",
 		"hasCpSettings": false,
 		"hasCpSection": false,
-		"changelogUrl": "https://raw.githubusercontent.com/twig-display/twig-display/master/CHANGELOG.md",
+		"changelogUrl": "https://raw.githubusercontent.com/webdna/twig-display/master/CHANGELOG.md",
 		"class": "kuriousagency\\twigdisplay\\TwigDisplay"
 	}
 }

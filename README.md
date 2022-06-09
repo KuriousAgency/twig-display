@@ -16,8 +16,8 @@ To install the plugin, follow these instructions.
 
 2.  Then tell Composer to load the plugin:
 
-        composer require twig-display/twig-display
+        composer require kuriousagency/twig-display
 
 3.  In the Control Panel, go to Settings → Plugins and click the “Install” button for Twig Display.
 
-Brought to you by [Kurious Agency](https://kurious.agency)
+Brought to you by [WebDNA](https://webdna.co.uk)
