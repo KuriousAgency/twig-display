@@ -3,9 +3,9 @@
  *
  * TwigDisplayField Field JS
  *
- * @author    Kurious Agency
- * @copyright Copyright (c) 2020 Kurious Agency
- * @link      https://kurious.agency
+ * @author    webdna
+ * @copyright Copyright (c) 2020 webdna
+ * @link      https://webdna.co.uk
  * @package   TwigDisplay
  * @since     1.0.0TwigDisplayTwigDisplayField
  */

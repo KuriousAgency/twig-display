@@ -4,12 +4,12 @@
  *
  * Use twig to render what you need.
  *
- * @link      https://kurious.agency
- * @copyright Copyright (c) 2020 Kurious Agency
+ * @link      https://webdna.co.uk
+ * @copyright Copyright (c) 2020 webdna
  */
 
 /**
- * @author    Kurious Agency
+ * @author    webdna
  * @package   TwigDisplay
  * @since     1.0.0
  */

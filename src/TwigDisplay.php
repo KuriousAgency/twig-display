@@ -4,8 +4,8 @@
  *
  * Use twig to render what you need.
  *
- * @link      https://kurious.agency
- * @copyright Copyright (c) 2020 Kurious Agency
+ * @link      https://webdna.co.uk
+ * @copyright Copyright (c) 2020 webdna
  */
 
 namespace webdna\twigdisplay;
@@ -24,7 +24,7 @@ use yii\base\Event;
 /**
  * Class TwigDisplay
  *
- * @author    Kurious Agency
+ * @author    webdna
  * @package   TwigDisplay
  * @since     1.0.0
  *
@@ -37,7 +37,7 @@ class TwigDisplay extends Plugin
     /**
      * @var TwigDisplay
      */
-    public static $plugin;
+    public static Plugin $plugin;
 
     // Public Properties
     // =========================================================================
@@ -45,7 +45,7 @@ class TwigDisplay extends Plugin
     /**
      * @var string
      */
-    public $schemaVersion = '1.0.0';
+    public string $schemaVersion = '1.0.0';
 
     // Public Methods
     // =========================================================================
@@ -53,7 +53,7 @@ class TwigDisplay extends Plugin
     /**
      * @inheritdoc
      */
-    public function init()
+    public function init(): void
     {
         parent::init();
         self::$plugin = $this;

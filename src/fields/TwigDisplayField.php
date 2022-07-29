@@ -4,8 +4,8 @@
  *
  * Use twig to render what you need.
  *
- * @link      https://kurious.agency
- * @copyright Copyright (c) 2020 Kurious Agency
+ * @link      https://webdna.co.uk
+ * @copyright Copyright (c) 2020 webdna
  */
 
 namespace webdna\twigdisplay\fields;
@@ -21,7 +21,7 @@ use yii\db\Schema;
 use craft\helpers\Json;
 
 /**
- * @author    Kurious Agency
+ * @author    webdna
  * @package   TwigDisplay
  * @since     1.0.0
  */
@@ -52,7 +52,7 @@ class TwigDisplayField extends Field
 	/**
 	 * @inheritdoc
 	 */
-	public function rules()
+	public function rules(): array
 	{
 		$rules = parent::rules();
 		$rules = array_merge($rules, [["data", "string"]]);
@@ -70,7 +70,7 @@ class TwigDisplayField extends Field
 	/**
 	 * @inheritdoc
 	 */
-	public function normalizeValue($value, ElementInterface $element = null)
+	public function normalizeValue(mixed $value, ElementInterface $element = null): mixed
 	{
 		return $value;
 	}
@@ -78,7 +78,7 @@ class TwigDisplayField extends Field
 	/**
 	 * @inheritdoc
 	 */
-	public function serializeValue($value, ElementInterface $element = null)
+	public function serializeValue(mixed $value, ElementInterface $element = null): mixed
 	{
 		return parent::serializeValue($value, $element);
 	}
@@ -86,7 +86,7 @@ class TwigDisplayField extends Field
 	/**
 	 * @inheritdoc
 	 */
-	public function getSettingsHtml()
+	public function getSettingsHtml(): ?string
 	{
 		// Render the settings template
 		return Craft::$app
@@ -102,10 +102,7 @@ class TwigDisplayField extends Field
 	/**
 	 * @inheritdoc
 	 */
-	public function getInputHtml(
-		$value,
-		ElementInterface $element = null
-	): string {
+	public function getInputHtml(mixed $value, ElementInterface $element = null): string {
 		return Craft::$app
 			->getView()
 			->renderString($this->data, [
